@@ -1,0 +1,3 @@
+Najhitrejša metoda je griddleinterpolant. Najhitreje je ker so podatki podani v struktorerani mreži z enakomernim korakom po oseh. Metoda to izkorišča in
+omogoča neposreden dostop do vrednosti na mreži. Zato ne potrebuje iskanja sosednjih točk medtem ko mora scatterinterpolant najprej poiskat najbližje točke.
+Ročna bilinearna interpolacija pa zahtva iteracije čez celice in dodatne izračune.
